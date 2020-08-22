@@ -6,7 +6,7 @@ function sTrain(){
   let options = {
     epochs: 100,
     batchsize: 400,
-    learningRate: 5
+    learningRate: 6
   }
   model.train(options, finishedTrainig)
 
